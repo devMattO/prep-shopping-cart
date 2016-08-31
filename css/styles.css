@@ -14,5 +14,21 @@
 
 .row{
   display: flex;
+  width: 100%;
   flex-direction: row;
+}
+
+.name{
+  display: flex;
+  width: 30%;
+}
+
+.description{
+  display: flex;
+  width: 60%;
+}
+
+.price{
+  display: flex;
+  width: 10%;
 }

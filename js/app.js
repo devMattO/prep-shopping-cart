@@ -23,17 +23,17 @@ function getItems(goods){
 		mainContainer.appendChild(rowElement);
 
 		var nameElement = document.createElement('div');
-		nameElement.id = 'name';
+		nameElement.className = 'name';
 		nameElement.innerHTML = goods[i].name;
 		rowElement.appendChild(nameElement);
 
 		var descriptionElement = document.createElement('div');
-		descriptionElement.id = 'description';
+		descriptionElement.className = 'description';
 		descriptionElement.innerHTML = goods[i].description;
 		rowElement.appendChild(descriptionElement);
 
 		var priceElement = document.createElement('div');
-		priceElement.id = 'price';
+		priceElement.className = 'price';
 		priceElement.innerHTML = goods[i].price;
 		rowElement.appendChild(priceElement);
 
