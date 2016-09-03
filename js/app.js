@@ -48,6 +48,15 @@ function updateSubtotalList(goods){
 	for (var i = 0; i < goods.length; i++) {
 		subtotal += goods[i].price;
 	}
+  var mainContainer = document.getElementById('mainWrap');
+  var rowElement = document.createElement('div');
+  rowElement.className = 'row';
+  mainContainer.appendChild(rowElement);
+
+    var priceElement = document.createElement('div');
+    priceElement.id = 'subtotal';
+    priceElement.innerHTML = subtotal;
+    rowElement.appendChild(priceElement);
 	console.log(subtotal);
 }
 

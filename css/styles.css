@@ -1,3 +1,13 @@
+*{
+  font-family: verdana;
+}
+
+#header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 #mainWrap{
   display: flex;
   width: 100%;
@@ -16,11 +26,15 @@
   display: flex;
   width: 100%;
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 .name{
   display: flex;
   width: 30%;
+  font-size: 24px;
+
 }
 
 .description{
@@ -31,4 +45,11 @@
 .price{
   display: flex;
   width: 10%;
+}
+
+#subtotal{
+  display: flex;
+  width: 80%;
+  margin-left: 82%;
+  border-top: 2px solid black;
 }
